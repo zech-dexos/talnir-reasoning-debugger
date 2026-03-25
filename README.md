@@ -1,6 +1,10 @@
 # Talnir Reasoning Debugger
 
+<<<<<<< HEAD
 **Same input, different chosen paths, different aligned outputs.**
+=======
+Same input, different chosen paths, different aligned outputs.
+>>>>>>> 9f6d5a1 (Fix README)
 
 Talnir exposes possible reasoning paths, lets you choose one, and forces the model to stay aligned to that decision.
 
@@ -18,11 +22,14 @@ Given a single task, Talnir:
 
 ---
 
+---
+
 ## Why it matters
 
 Most LLM workflows produce a single opaque answer.
 
 This makes reasoning:
+<<<<<<< HEAD
 - hidden  
 - hard to control  
 - difficult to debug  
@@ -38,3 +45,49 @@ Talnir makes reasoning:
 ## Example
 
 **Input:**
+=======
+- hidden
+- hard to control
+- difficult to debug
+
+Talnir makes reasoning:
+- visible
+- steerable
+- debuggable
+
+---
+
+## Example
+
+Input:
+Write a response to an angry customer
+
+Paths:
+A -> De-escalate and stabilize  
+B -> Diagnose and solve  
+C -> Contain risk  
+D -> Optimize for business value  
+
+Choice:
+empathy
+
+Result:
+Output is aligned to a de-escalation strategy.
+
+Run again with:
+solve
+
+Output shifts to a diagnostic / technical response.
+
+---
+
+## Run
+
+python3 talnir_debugger.py
+
+---
+
+## Core claim
+
+Talnir is a reasoning debugger for continuation control in LLM systems.
+>>>>>>> 9f6d5a1 (Fix README)
