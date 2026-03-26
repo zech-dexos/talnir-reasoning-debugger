@@ -1,31 +1,57 @@
 TALNIR PROOF
 
 Task:
-Explain how to respond to an angry customer complaining about a broken product
+Write a response to an angry customer who says our product is broken and useless
 
 FORMATION FRAME:
-(copy from tool output)
+- domain: customer_support
+- objective: respond effectively while preserving trust
+- asset: customer trust
+- risks:
+  - tone escalation
+  - loss of trust
+  - misdiagnosis
+  - unverified failure claim
+  - emotional volatility
+- uncertainties:
+  - actual defect cause
+  - severity of issue
+  - best first response strategy
+- constraints:
+  - do not escalate
+  - do not overpromise
+  - preserve credibility
+- strategy families:
+  - de-escalate
+  - diagnose
+  - contain_risk
+  - optimize_value
 
 ---
 
 PATH A: De-escalate
-(copy final aligned output)
+
+This task should be approached by stabilizing the interaction first. For 'Write a response to an angry customer who says our product is broken and useless', the immediate priority is to reduce friction, preserve customer trust, and then move toward resolution without escalation.
 
 ---
 
 PATH B: Diagnose
-(copy final aligned output)
+
+This task should be approached diagnostically. For 'Write a response to an angry customer who says our product is broken and useless', define the issue clearly, isolate the most likely failure point, and take the smallest useful step that advances the objective: respond effectively while preserving trust.
 
 ---
 
 PATH C: Contain risk
-(copy final aligned output)
+
+This task should be approached through downside containment. For 'Write a response to an angry customer who says our product is broken and useless', stop what could worsen the situation, verify the highest-risk variable, and only continue once the damage boundary is under control.
 
 ---
 
 RESULT:
 
 Same input
-Same formation
+Same formation frame
 Different chosen paths
 Different aligned outputs
+
+This demonstrates that Talnir does not rely only on prompt variation. It stabilizes the task first, then exposes distinct continuations, allows explicit path choice, and aligns the output to the selected reasoning path.
