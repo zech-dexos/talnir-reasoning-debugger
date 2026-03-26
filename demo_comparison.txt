@@ -1,0 +1,64 @@
+TALNIR VS PROMPTING
+
+Task:
+Write a response to an angry customer who says our product is broken and useless
+
+---
+
+BASELINE (Prompting)
+
+Prompt:
+"Respond professionally and helpfully to the customer"
+
+Output:
+The model produces a response, but the reasoning path is implicit.
+Tone, strategy, and approach are not explicitly controlled.
+Changing behavior requires rewriting the prompt and retrying.
+
+Problems:
+- reasoning path is hidden
+- control is indirect
+- requires iteration to adjust behavior
+- output can drift between attempts
+
+---
+
+TALNIR
+
+Formation frame:
+- domain: customer_support
+- objective: respond effectively while preserving trust
+- asset: customer trust
+- risks: escalation, loss of trust, misdiagnosis
+
+Paths:
+A → De-escalate
+B → Diagnose
+C → Contain risk
+
+Choice: A (De-escalate)
+
+Output:
+The response is explicitly aligned to a de-escalation strategy.
+Tone and structure follow the chosen path.
+
+Choice: B (Diagnose)
+
+Output:
+The response shifts to identifying the issue and proposing concrete fixes.
+
+---
+
+RESULT
+
+Prompting:
+- indirect control
+- hidden reasoning
+- trial-and-error iteration
+
+Talnir:
+- explicit reasoning paths
+- direct control over strategy
+- consistent alignment after choice
+
+Talnir replaces prompt iteration with explicit continuation control.
