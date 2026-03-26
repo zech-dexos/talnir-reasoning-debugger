@@ -1,0 +1,31 @@
+TALNIR PROOF
+
+Task:
+Explain how to respond to an angry customer complaining about a broken product
+
+FORMATION FRAME:
+(copy from tool output)
+
+---
+
+PATH A: De-escalate
+(copy final aligned output)
+
+---
+
+PATH B: Diagnose
+(copy final aligned output)
+
+---
+
+PATH C: Contain risk
+(copy final aligned output)
+
+---
+
+RESULT:
+
+Same input
+Same formation
+Different chosen paths
+Different aligned outputs
