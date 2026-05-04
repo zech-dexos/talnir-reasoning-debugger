@@ -10,12 +10,12 @@ Talnir is a formation-aware reasoning debugger that stabilizes task framing, exp
 
 Given a single task, Talnir:
 
-1. stabilizes the task into an explicit formation frame  
-2. generates multiple candidate reasoning paths from that frame  
-3. recommends one path based on task signals  
-4. allows explicit path selection  
-5. realigns the output to the chosen continuation  
-6. shows a trace of the selected path and aligned result  
+1. stabilizes the task into an explicit formation frame
+2. generates multiple candidate reasoning paths from that frame
+3. recommends one path based on task signals
+4. allows explicit path selection
+5. realigns the output to the chosen continuation
+6. shows a trace of the selected path and aligned result
 
 ---
 
@@ -24,14 +24,14 @@ Given a single task, Talnir:
 Most LLM workflows produce a single opaque answer.
 
 This makes reasoning:
-- hidden  
-- hard to control  
-- difficult to debug  
+- hidden
+- hard to control
+- difficult to debug
 
 Talnir makes reasoning:
-- visible  
-- steerable  
-- debuggable  
+- visible
+- steerable
+- debuggable
 
 Talnir separates **formation stability** from **continuation selection**, making model behavior more reliable and easier to control.
 
@@ -41,13 +41,13 @@ Talnir separates **formation stability** from **continuation selection**, making
 
 Before generating paths, Talnir stabilizes the task into a structured frame:
 
-- domain  
-- objective  
-- asset  
-- risks  
-- uncertainties  
-- constraints  
-- strategy families  
+- domain
+- objective
+- asset
+- risks
+- uncertainties
+- constraints
+- strategy families
 
 This ensures that continuation paths are generated from a consistent and interpretable problem space rather than raw prompt signals.
 
@@ -59,16 +59,16 @@ This ensures that continuation paths are generated from a consistent and interpr
 Write a response to an angry customer who says our product is broken and useless
 
 **Formation frame (simplified):**
-- domain: customer_support  
-- objective: preserve trust while resolving issue  
-- asset: customer relationship  
-- risks: escalation, loss of trust, misdiagnosis  
+- domain: customer_support
+- objective: preserve trust while resolving issue
+- asset: customer relationship
+- risks: escalation, loss of trust, misdiagnosis
 
 **Paths:**
-- A -> De-escalate and stabilize  
-- B -> Diagnose and solve  
-- C -> Contain risk  
-- D -> Optimize for business value  
+- A -> De-escalate and stabilize
+- B -> Diagnose and solve
+- C -> Contain risk
+- D -> Optimize for business value
 
 **Choice:**
 empathy
@@ -87,3 +87,17 @@ Output shifts to a diagnostic / technical response.
 
 ```bash
 python3 talnir_debugger.py
+```
+
+---
+
+## Related Projects
+
+**[ReasonFlow](https://github.com/zech-dexos/reasonflow)** — Full behavioral governance runtime for local LLMs. Talnir runs as the NL translation layer inside ReasonFlow, feeding structured signals into a sigil-governed brain routing system with persistent memory.
+
+---
+
+## Built By
+
+Zechariah "Root" Cozine — independent researcher and builder.  
+Two years of solo development. Self-funded. Local hardware only.
